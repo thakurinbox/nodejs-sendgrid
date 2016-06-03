@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   var sendgrid  = require('sendgrid')(sendgrid_api_key);
 
   var email     = new sendgrid.Email({
-  to:       'thakurinbox@bgmail.com',
+  to:       'thakurinbox@gmail.com',
   from:     'gencypher@gmail.com',
   subject:  'Subject goes here',
   text:     'Hello world'
