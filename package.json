@@ -12,5 +12,9 @@
     "async": "^2.0.0-rc.5",
     "express": "^4.13.4",
     "sendgrid": "^2.0.0"
-  }
+  },
+  "repository" : {
+   "type" : "git",
+   "url" : "https://github.com/thakurinbox/nodejs-sendgrid.git"
+ }
 }
