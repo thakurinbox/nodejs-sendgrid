@@ -4,7 +4,7 @@ var app = express();
 app.get('/', function (req, res) {
 
 
-  var sendgrid_api_key = "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"
+  var sendgrid_api_key = "YOUR SENDGRID KEY"
   var sendgrid  = require('sendgrid')(sendgrid_api_key);
 
   var email     = new sendgrid.Email({
